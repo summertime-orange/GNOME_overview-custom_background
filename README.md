@@ -13,10 +13,10 @@ Replace USER with your username, and THEME with the name of the gnome shell them
 
 Open the gnome-shell.css with a text editor and edit the overviewGroup:
 
-#overviewGroup {
-  background-image: url("assets/overview_background.png");   /* Path to the custom background image. */
-  background-repeat: no-repeat;
-  background-size: cover;
+#overviewGroup {  
+  background-image: url("assets/overview_background.png");   /* Path to the custom background image. */  
+  background-repeat: no-repeat;  
+  background-size: cover;  
 }
 
 If this does not work, some later part of the code might have overwritten it. In that case, move the overviewGroup to the end of the gnome-shell.css. This works for GNOME 42, but it should work for other versions too; if not, try similar changes.
