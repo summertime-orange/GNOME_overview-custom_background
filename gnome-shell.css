@@ -1,0 +1,22 @@
+/* 25 Sep 2022 summertime-orange
+
+DO NOT OVERWRITE YOUR gnome-shell.css WITH THIS FILE. THIS IS JUST AN EXAMPLE.
+
+To set a custom background in the Overview in Gnome 42 for a custom shell, edit the gnome-shell.css in
+/home/USER/.themes/THEME/gnome-shell/
+with a text editor.
+
+Replace USER with your username, and THEME with the name of the gnome shell theme you are using.
+
+*/
+
+/* Edit the overviewGroup in gnome-shell.css: */
+
+#overviewGroup {
+  background-image: url("assets/overview_background.png");   /* Path to your custom background image. */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* If this does not work, some later part of the code might have overwritten it. In that case, move the overviewGroup to the end of the gnome-shell.css. This should work for other versions of Gnome too; if not, try similar changes. */
+
